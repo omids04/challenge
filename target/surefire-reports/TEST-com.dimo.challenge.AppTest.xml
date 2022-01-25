@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.dimo.challenge.AppTest" time="0.068" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.dimo.challenge.AppTest" time="0.503" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/omid/workspace/challenge/target/test-classes:/home/omid/workspace/challenge/target/classes:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.ecore/2.25.0/org.eclipse.emf.ecore-2.25.0.jar:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.common/2.23.0/org.eclipse.emf.common-2.23.0.jar:/home/omid/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/omid/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/omid/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/omid/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/omid/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/omid/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.class.path" value="/home/omid/workspace/challenge/target/test-classes:/home/omid/workspace/challenge/target/classes:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.ecore/2.25.0/org.eclipse.emf.ecore-2.25.0.jar:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.common/2.23.0/org.eclipse.emf.common-2.23.0.jar:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.ecore.xmi/2.16.0/org.eclipse.emf.ecore.xmi-2.16.0.jar:/home/omid/.m2/repository/org/eclipse/ocl/org.eclipse.ocl/3.4.2.v20140725-2242/org.eclipse.ocl-3.4.2.v20140725-2242.jar:/home/omid/.m2/repository/org/eclipse/ocl/org.eclipse.ocl.ecore/3.3.100.v20140610-0641/org.eclipse.ocl.ecore-3.3.100.v20140610-0641.jar:/home/omid/.m2/repository/org/eclipse/core/org.eclipse.core.runtime/3.9.0.v20130326-1255/org.eclipse.core.runtime-3.9.0.v20130326-1255.jar:/home/omid/.m2/repository/lpg/runtime/java/2.0.17-v201004271640/java-2.0.17-v201004271640.jar:/home/omid/.m2/repository/org/eclipse/ocl/org.eclipse.ocl.common/1.2.0.v20140610-0641/org.eclipse.ocl.common-1.2.0.v20140610-0641.jar:/home/omid/.m2/repository/org/eclipse/core/org.eclipse.osgi/3.10.1.v20140909-1633./org.eclipse.osgi-3.10.1.v20140909-1633..jar:/home/omid/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/omid/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/omid/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/omid/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/omid/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/omid/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
-    <property name="user.timezone" value=""/>
+    <property name="user.timezone" value="Asia/Tehran"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/omid/workspace/challenge/target/surefire/surefirebooter7457611612215472600.jar /home/omid/workspace/challenge/target/surefire 2022-01-23T13-01-59_382-jvmRun1 surefire2037944792824418122tmp surefire_017282402730535007152tmp"/>
+    <property name="sun.java.command" value="/home/omid/workspace/challenge/target/surefire/surefirebooter17075506709990064453.jar /home/omid/workspace/challenge/target/surefire 2022-01-25T05-20-03_604-jvmRun1 surefire18264274483549284238tmp surefire_015020221518932650145tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/omid/workspace/challenge/target/test-classes:/home/omid/workspace/challenge/target/classes:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.ecore/2.25.0/org.eclipse.emf.ecore-2.25.0.jar:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.common/2.23.0/org.eclipse.emf.common-2.23.0.jar:/home/omid/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/omid/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/omid/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/omid/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/omid/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/omid/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="surefire.test.class.path" value="/home/omid/workspace/challenge/target/test-classes:/home/omid/workspace/challenge/target/classes:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.ecore/2.25.0/org.eclipse.emf.ecore-2.25.0.jar:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.common/2.23.0/org.eclipse.emf.common-2.23.0.jar:/home/omid/.m2/repository/org/eclipse/emf/org.eclipse.emf.ecore.xmi/2.16.0/org.eclipse.emf.ecore.xmi-2.16.0.jar:/home/omid/.m2/repository/org/eclipse/ocl/org.eclipse.ocl/3.4.2.v20140725-2242/org.eclipse.ocl-3.4.2.v20140725-2242.jar:/home/omid/.m2/repository/org/eclipse/ocl/org.eclipse.ocl.ecore/3.3.100.v20140610-0641/org.eclipse.ocl.ecore-3.3.100.v20140610-0641.jar:/home/omid/.m2/repository/org/eclipse/core/org.eclipse.core.runtime/3.9.0.v20130326-1255/org.eclipse.core.runtime-3.9.0.v20130326-1255.jar:/home/omid/.m2/repository/lpg/runtime/java/2.0.17-v201004271640/java-2.0.17-v201004271640.jar:/home/omid/.m2/repository/org/eclipse/ocl/org.eclipse.ocl.common/1.2.0.v20140610-0641/org.eclipse.ocl.common-1.2.0.v20140610-0641.jar:/home/omid/.m2/repository/org/eclipse/core/org.eclipse.osgi/3.10.1.v20140909-1633./org.eclipse.osgi-3.10.1.v20140909-1633..jar:/home/omid/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/omid/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/omid/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/omid/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/omid/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/omid/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/omid"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/omid/workspace/challenge/target/surefire/surefirebooter7457611612215472600.jar"/>
+    <property name="surefire.real.class.path" value="/home/omid/workspace/challenge/target/surefire/surefirebooter17075506709990064453.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+8-Ubuntu-0ubuntu1.18.04"/>
     <property name="user.name" value="omid"/>
@@ -58,8 +58,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="test" classname="com.dimo.challenge.AppTest" time="0.041">
-    <system-out><![CDATA[All is ok
-]]></system-out>
+  <testcase name="modelWithNoPeopleTest" classname="com.dimo.challenge.AppTest" time="0.468">
+    <error type="org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException"><![CDATA[org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'http://efinder/tests/people' not found. (file:/home/omid/workspace/challenge/target/test-classes/models/Model1.xmi, 2, 232)
+	at com.dimo.challenge.AppTest.getRoot(AppTest.java:23)
+	at com.dimo.challenge.AppTest.modelWithNoPeopleTest(AppTest.java:31)
+Caused by: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'http://efinder/tests/people' not found. (file:/home/omid/workspace/challenge/target/test-classes/models/Model1.xmi, 2, 232)
+	at com.dimo.challenge.AppTest.getRoot(AppTest.java:23)
+	at com.dimo.challenge.AppTest.modelWithNoPeopleTest(AppTest.java:31)
+]]></error>
   </testcase>
 </testsuite>

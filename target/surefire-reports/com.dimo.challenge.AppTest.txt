@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.dimo.challenge.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in com.dimo.challenge.AppTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.503 s <<< FAILURE! - in com.dimo.challenge.AppTest
+com.dimo.challenge.AppTest.modelWithNoPeopleTest  Time elapsed: 0.468 s  <<< ERROR!
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'http://efinder/tests/people' not found. (file:/home/omid/workspace/challenge/target/test-classes/models/Model1.xmi, 2, 232)
+	at com.dimo.challenge.AppTest.getRoot(AppTest.java:23)
+	at com.dimo.challenge.AppTest.modelWithNoPeopleTest(AppTest.java:31)
+Caused by: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'http://efinder/tests/people' not found. (file:/home/omid/workspace/challenge/target/test-classes/models/Model1.xmi, 2, 232)
+	at com.dimo.challenge.AppTest.getRoot(AppTest.java:23)
+	at com.dimo.challenge.AppTest.modelWithNoPeopleTest(AppTest.java:31)
+
