@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<peope:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:peope="http://efinder/tests/people" xsi:schemaLocation="http://efinder/tests/people inputs/people.ecore">
-  <people name="" bestFriend="//@people.0">
-    <nicknames></nicknames>
-    <luckyNumbers>0</luckyNumbers>
-    <age>10</age>
-  </people>
-</peope:Model>
